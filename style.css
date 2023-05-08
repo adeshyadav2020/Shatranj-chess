@@ -1,0 +1,85 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+div * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#turn {
+  max-width: 451px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  float: right;
+  border-radius: 5px;
+  
+  border-style: inset;
+  text-align: center;
+  padding: 5px 0 0 0;
+  background: #e27e0b;
+  transition: .85s linear;
+}
+
+.turnhighlight {
+  background: #eb210b !important;
+  color: #e2d7d7;
+}
+
+#game {
+  max-width: 504px;
+  max-height: 504px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.cellprefix {
+  width: 100%;
+  height: 100%;
+  max-width: 50px;
+  max-height: 50px;
+  float: left;
+  margin: 3px;
+  padding: 15px 0 0 20px;
+}
+
+.gamecell {
+  border: 1px solid #b62121;
+  width: 100%;
+  height: 100%;
+  max-width: 50px;
+  max-height: 50px;
+  float: left;
+  margin: 3px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  font-size: 30pt;
+  padding: 0 0 0 6px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.grey {
+  background: rgba(128, 128, 128, 0.801);
+}
+
+.green {
+  
+  background: rgb(209, 119, 16) ;
+}
+
+
+
+
+
+
